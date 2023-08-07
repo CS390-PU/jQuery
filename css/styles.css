@@ -44,3 +44,8 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.highlight {
+  color: blue;
+  font-weight: bold;
+}
