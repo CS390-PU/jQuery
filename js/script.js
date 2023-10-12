@@ -5,6 +5,6 @@ function btnAlert () {
 }
 
 document.getElementById("btnButton1").onclick = btnAlert;
-document.getElementById("btnButton2").onclick = btnAlert;
+document.getElementById("btnButton2").addEventListener ('click', btnAlert);
 $("#btnButton3").on("click", btnAlert);
 $("#btnButton4").click(btnAlert);
